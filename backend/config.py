@@ -1,0 +1,12 @@
+# 数据库配置
+
+DB_USERNAME = "root"
+DB_PASSWORD = ".13911126840xX"
+DB_HOST = "124.221.134.131"
+DB_PORT = "3306"
+DB_NAME = "manholecover"
+
+
+# SQLAlchemy Configuration
+SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
