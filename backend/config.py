@@ -1,7 +1,7 @@
 # 数据库配置
 
 DB_USERNAME = "root"
-DB_PASSWORD = ".13911126840xX"
+DB_PASSWORD = ""
 DB_HOST = "124.221.134.131"
 DB_PORT = "3306"
 DB_NAME = "manholecover"
